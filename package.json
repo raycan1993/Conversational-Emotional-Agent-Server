@@ -1,0 +1,25 @@
+{
+  "name": "eca-server",
+  "version": "1.0.0",
+  "description": "Backend Server API for an emotional conversational agent",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Ray Cañoneo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "python-shell": "^1.0.7",
+    "sentiment": "^5.0.1"
+  }
+}
