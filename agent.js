@@ -37,12 +37,10 @@ Agent.prototype.initialMessage = function(){
 
     var bot_story_very_very_bad = [
         "My Parents have passed away recently and my sister won't talk to me. ",
-        "I also just got fired from my job. ",
+        "I just got fired from my job. ",
         "I just don't know what to do anymore to be honest. I'm an emotional wreck.",
         "I started drinking and taking drugs again. ",
-        "I just don't see a point anaymore in this all... ",
-        "Why should I ceep going?! Tell me! Why??? I should just end all my suffering...",
-        "Well I already tried it last week..."
+        "Why should I ceep going?! Tell me! Why??? I should just end all my suffering..."
     ],
     bot_story_very_bad = [
         "I lost my job some time ago and my parents died in a car accident recently...",
@@ -50,15 +48,13 @@ Agent.prototype.initialMessage = function(){
     ],
     bot_story_bad = [
         "My parents died in a car accident recently and my sister is blaming me for that",
-        " because prior to that, they came to visit and we had an intense argument, so they left. ",
-        " On their way home, a strangers car crashed into theirs and yeah..."
     ],
     bot_story_kinda_bad = [
         "My parents died two weeks ago in a car and now it's just me and my sister."
     ],
     bot_story_still_bad = [
-        "I'm getting bullied in school and I just can't make them stop! ",
-        "Why are they doing this? I'm scared to go to school."
+        "I'm getting bullied in school, but I try to stay positive about it!",
+        "I experienced some bad things, but life goes on, right?"
     ];
 
     if(this.xAxis >= -10 && this.xAxis < -8){ 
